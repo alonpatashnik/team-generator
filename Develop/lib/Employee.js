@@ -1,6 +1,4 @@
 // TODO: Write code to define and export the Employee class
-const Manager = require('../lib/Manager');
-
 class Employee {
     constructor(name, id, email) {
         this.name = name;
