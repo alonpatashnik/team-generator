@@ -12,7 +12,7 @@ This program takes in user input about their team of workers and the program gen
 to run the app on your computer, run 'node index.js' in your command line from the root of your folder
 ## Usage
 WHen used, the app will prompt the user to keep adding team members until they fee ltheir team is complete. Here is a video that demonstrates how it is used<br/>
-![Image]('')
+![Usage]('https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Cat03.jpg/1200px-Cat03.jpg')
 ## License
 Apache 2.0<br/>
 ![Apache 2.0](https://camo.githubusercontent.com/c7c91ba0c808b97b0984050381736d8abae1fa27f0670ee27e9b2ad25ed2d938/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4c6963656e73652d4170616368655f322e302d79656c6c6f77677265656e2e737667)<br/>[License: Apache 2.0](https://opensource.org/licenses/Apache-2.0)
