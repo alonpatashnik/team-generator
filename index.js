@@ -9,10 +9,6 @@ const html = require('./util/generateHtml')
 
 const team = []
 
-const manager = new Manager('Alon', 26062, 'alonp714@gmail.com', 14)
-const intern = new Intern('Eric', 45065, 'alonp@gmail.com', 'Butler University')
-const engineer = new Engineer('Matt', 26062, 'a714@gmail.com', 'github.com/alonpatashnik')
-
 
 function init() {
     inquirer.prompt([
@@ -93,9 +89,7 @@ function addEngineer() {
         },
     ]).then((res) => {
         const newEngineer = new Engineer(res.name, res.id, res.email, res.git)
-        console.log(newEngineer)
         team.push(newEngineer)
-        console.log(team)
         teamLoop();
     })
 }
@@ -124,9 +118,7 @@ function addIntern() {
         },
     ]).then((res) => {
         const newIntern = new Intern(res.name, res.id, res.email, res.school)
-        console.log(newIntern)
         team.push(newIntern)
-        console.log(team)
         teamLoop();
     })
 }
